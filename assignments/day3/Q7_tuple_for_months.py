@@ -6,4 +6,7 @@
 #Tuple for months
 months = ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec')
 
-
+if "May" in months:
+    print "May is present in the list"
+else:
+    print "May is not there"
