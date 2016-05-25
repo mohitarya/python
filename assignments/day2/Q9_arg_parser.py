@@ -9,7 +9,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument("Name", help="Input the name")
-parser.add_argument("age", help="Input the age")
+parser.add_argument("age", help="Input the age", type=int)
 args = parser.parse_args()
 print(args.Name)
 print(args.age)
